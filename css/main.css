@@ -26,6 +26,7 @@ p{
     /* background-position: 5px; */
     /* background-attachment: fixed;  */
     display: block;
+    /* max-width: 100%; */
 }
 
 .log img{
@@ -65,16 +66,18 @@ p{
 
 .introduction {
     background-image: url(../images/background.jpg);
-    height: 150vh;
+    height: 120vh;
+    background-size: cover;
+    padding-top: 1px;
 }
 
 .first {
     background-color: #fff;
     border: 1px solid #00552E;
     padding: 30px 51px 30px 250px;
-    margin: 100px 150px 50px 300px;
+    margin: 50px 150px 50px 300px;
     right: 20px;
-
+    /* position: absolute; */
 }
 
 .first h2{
@@ -91,7 +94,7 @@ p{
 .first h2 span{
     font-size: 18px;
 }
-/* 
+
 .shape1{
     background-color: #D7CF3A;
     width: 28vh;
@@ -110,15 +113,16 @@ p{
     margin: 40px 30px;
     text-align: center;
     font-size: 48px;
-} */
+}
 
 
 .secound {
     background-color: #fff;
     border: 1px solid #00552E;
     padding: 30px 250px 30px 51px;
-    margin: 100px 300px 50px 150px;
+    margin: 80px 300px 50px 150px;
     right: 20px;
+    position: absolute;
 }
 
 .secound h2{
@@ -136,7 +140,7 @@ p{
     font-size: 18px;
 }
 
-/* .shape2{
+.shape2{
     background-color: #D7CF3A;
     width: 28vh;
     height: 28vh;
@@ -144,8 +148,8 @@ p{
     transform: rotate(45deg);
     border-radius: 16px;
     position: absolute;
-    right: 220px;
-    top: 1450px;
+    right: 235px;
+    top: 1470px;
 }
 
 .shape2 h1{
@@ -154,4 +158,9 @@ p{
     margin: 40px 30px;
     text-align: center;
     font-size: 48px;
-} */
+}
+
+.menu {
+    background-image: url(../images/background.jpg);
+    background-position: cover;
+}
