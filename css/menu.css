@@ -1,0 +1,286 @@
+.introduction-secound {
+    background-color: #fff;
+    border: 1px solid #00552E;
+    padding: 20px 40px;
+    margin: 100px 215px;
+    right: 20px;
+    margin-bottom: -50px;
+
+}
+
+.introduction-secound h2 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+.introduction-secound p {
+    text-align: center;
+    line-height: 2ch;
+}
+
+.agesoba img {
+    width: 120%;
+    margin: 0px 0px 0px 100px; 
+}
+
+.agesoba p {
+    color: #00552E;
+    text-align: center;
+    padding: 0px 0px 0px 600px;
+    line-height: 5ch;
+}
+
+.agesoba2 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+
+.soba2 img {
+    width: 717.7px;
+    height: 415px;
+    object-fit: cover;
+}
+
+.zarukake {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.zarukake h2 {
+    writing-mode: vertical-rl;
+    background-color: rgb(255, 255, 255, 0.9);
+    font-size: 36px;
+    letter-spacing: 0.4em;
+    padding: 15px;
+}
+
+.zaruzaru {
+    position: absolute;
+    margin: 20px 0px 0px 20px;
+}
+
+.kakekake {
+    position: absolute;
+    margin: 20px 0px 0px 25px;
+}
+
+ .soba2 p {
+    color: #00552E;
+    text-align: center;
+    line-height: 4ch;
+    margin-top: 50px;
+    margin-bottom: -50px;
+ }
+
+ .shape3{
+    background-color: #D7CF3A;
+    width: 28vh;
+    height: 28vh;
+    border: 1px solid #ffffff;
+    transform: rotate(45deg);
+    border-radius: 16px;
+    position: absolute;
+    left: 220px;
+    top: 415%;
+}
+
+.shape3 h1{
+    color: #fff;
+    transform: rotate(-45deg);
+    margin: 40px 10px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.shape4{
+    background-color: #D7CF3A;
+    width: 28vh;
+    height: 28vh;
+    border: 1px solid #ffffff;
+    transform: rotate(45deg);
+    border-radius: 16px;
+    position: absolute;
+    left: 220px;
+    top: 477%;
+}
+
+.shape4 h1{
+    color: #fff;
+    transform: rotate(-45deg);
+    margin: 40px 10px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.desertes {
+    display: inline-block;
+}
+
+.desert img {
+    width: 477px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.pudding {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    position: absolute;
+    left: 20px;   
+    margin-top: 20px;
+}
+
+.desert h3 { 
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 20px;
+    letter-spacing: 0.4em;
+}
+
+.shiruko {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    position: absolute;
+    left: 505px;
+    margin-top: 20px;
+}
+
+.uiro {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    position: absolute;
+    right: 380px;
+    margin-top: 20px;
+}
+
+.desert p {
+    color: #00552E;
+    text-align: center;
+    line-height: 4ch;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.first2 {
+    background-color: #fff;
+    border: 1px solid #00552E;
+    padding: 30px 51px 30px 250px;
+    margin: 100px 64px 50px 290px;
+    right: 20px;
+    /* position: absolute; */
+}
+
+.first2 h2{
+    text-align: right;
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+.first2 p{
+    text-align: right;
+    line-height: 2ch;
+}
+
+.first2 h2 span{
+    font-size: 18px;
+}
+
+.shape4{
+    background-color: #D7CF3A;
+    width: 28vh;
+    height: 28vh;
+    border: 1px solid #ffffff;
+    transform: rotate(45deg);
+    border-radius: 16px;
+    position: absolute;
+    left: 220px;
+    top: 980px;
+}
+
+.shape4 h1{
+    color: #fff;
+    transform: rotate(-45deg);
+    margin: 40px 30px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.inari2 {
+    padding-top: 100px;
+}
+
+.inari2 img{
+    object-fit: cover;
+    width: 33%;
+    height: 300px;
+}
+
+.shape5{
+    background-color: #D7CF3A;
+    width: 28vh;
+    height: 28vh;
+    border: 1px solid #ffffff;
+    transform: rotate(45deg);
+    border-radius: 16px;
+    position: absolute;
+    left: 210px;
+    top: 910px;
+}
+
+.shape5 h1{
+    color: #fff;
+    transform: rotate(-45deg);
+    margin: 33% 40px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.shape6{
+    background-color: #D7CF3A;
+    width: 28vh;
+    height: 28vh;
+    border: 1px solid #ffffff;
+    transform: rotate(45deg);
+    border-radius: 16px;
+    position: absolute;
+    right: 210px;
+    top: 1300px;
+}
+
+.shape6 h1{
+    color: #fff;
+    transform: rotate(-45deg);
+    margin: 33% 30px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.drinks {
+    display: inline-block;
+}
+
+.drinks img{
+    width: 717.7px;
+    height: 415px;
+    object-fit: cover;
+}
+
+.drink-drink h2 {
+    writing-mode: vertical-rl;
+    background-color: rgb(255, 255, 255, 0.9);
+    font-size: 36px;
+    letter-spacing: 0.4em;
+    padding: 15px;
+}
+
+.dassai {
+    position: absolute;
+    margin: 20px 0px 0px 20px;
+}
+
+.beru {
+    position: absolute;
+    margin: 20px 0px 0px 25px;
+}
