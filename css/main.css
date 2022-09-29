@@ -5,6 +5,45 @@
     list-style: none;
 }
 
+a{
+    color: #ffffff;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=100);
+  -moz-opacity: 0.1;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode:both;
+    -ms-animation-fill-mode:both;
+    animation-fill-mode:both;
+    -webkit-animation-duration:1.5s;
+    -ms-animation-duration:1.5s;
+    animation-duration:1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+   }
+   @-webkit-keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+   }
+   @keyframes fuwatAnime {
+    0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+   }
+
 
 body{
     font-family: 'Zen Maru Gothic', sans-serif;
@@ -29,8 +68,23 @@ p{
     margin: 10% 40% 5%;
 }
 
+
+
+.log img{
+    width: 6%;
+    padding: 5px 0px 0px 20px;
+    /* opacity: 0.8; */
+    position: fixed;
+    z-index: 30;
+}
+
+/* .title{
+    z-index: 9999;
+} */
 .title{
     background-image: url(../images/title2.png);
+    object-fit: cover;
+
     background-size: contain;
     background-size: cover;
     width: 100%;
@@ -41,14 +95,8 @@ p{
     /* max-width: 100%; */
 }
 
-.log img{
-    width: 20%;
-    padding: 20px 0px 0px 20px;
-}
-
 .title a{
     color: #ffffff;
-    position: fixed;
     width: 500px;
     font-size: 24px;
 }
@@ -57,16 +105,29 @@ p{
     display: flex;
     width: 300px;
     justify-content: space-between;
-    padding-left: 70%;
-    padding-top: 25px;
+    padding-left: 75%;
+    position: fixed;
+    padding-top: 15px;
+}
+
+.titles ul {
+    background-color: rgb(0, 85, 46, 0.4);
+    padding-right: 100%;
+    padding-bottom: 28px; 
+    z-index: 20;
+}
+
+.title li {
+    float: left;
 }
 
 .title2{
-    background-image: url(../images/title2.png);
+    background-image: url(../images/zarusoba1.jpg);
     background-size: contain;
     background-size: cover;
     width: 100%;
     height: 100vh;
+    object-fit: cover;
     /* background-position: 5px; */
     /* background-attachment: fixed;  */
     display: block;
@@ -77,15 +138,98 @@ p{
     display: flex;
     width: 580px;
     justify-content: space-between;
-    padding-left: 50%;
+    padding-left: 55%;
     padding-top: 25px;
+    position: fixed;
 }
+
+.title2 li {
+    float: left;
+}
+
 
 .title2 a{
     color: #ffffff;
-    position: fixed;
     width: 500px;
     font-size: 24px;
+}
+
+.title3{
+    background-image: url(../images/inari1.jpg);
+    background-size: contain;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* background-position: 5px; */
+    /* background-attachment: fixed;  */
+    display: block;
+    object-fit: cover;
+    /* max-width: 100%; */
+}
+
+.title3 a{
+    color: #ffffff;
+    width: 500px;
+    font-size: 24px;
+}
+
+.title3 ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-left: 75%;
+    position: fixed;
+    padding-top: 15px;
+}
+
+.titles3 ul {
+    background-color: rgb(0, 85, 46, 0.4);
+    padding-right: 100%;
+    padding-bottom: 28px; 
+    z-index: 20;
+}
+
+.title3 li {
+    float: left;
+}
+
+.title4{
+    background-image: url(../images/nomimono1.jpg);
+    background-size: contain;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* background-position: 5px; */
+    /* background-attachment: fixed;  */
+    display: block;
+    object-fit: cover;
+    /* max-width: 100%; */
+}
+
+.title4 a{
+    color: #ffffff;
+    width: 500px;
+    font-size: 24px;
+}
+
+.title4 ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-left: 75%;
+    position: fixed;
+    padding-top: 15px;
+}
+
+.titles4 ul {
+    background-color: rgb(0, 85, 46, 0.4);
+    padding-right: 100%;
+    padding-bottom: 28px; 
+    z-index: 20;
+}
+
+.title4 li {
+    float: left;
 }
 
 .thema {
@@ -104,12 +248,12 @@ p{
     letter-spacing: 0.4em;
 }
 
-.introduction {
-    /* background-image: url(../images/background.jpg);
+/* .introduction {
+    background-image: url(../images/background.jpg);
     height: 120vh;
     background-size: cover;
-    padding-top: 1px; */
-}
+    padding-top: 1px;
+} */
 
 .first {
     background-color: #fff;
@@ -227,7 +371,8 @@ p{
     background-color: rgba(255, 255, 255, 0.9);
     display: inline-block;
     position: absolute;
-    left: 13%;   
+    left: 13%; 
+    z-index: 10;  
 }
 
 .inari {
@@ -235,6 +380,8 @@ p{
     display: inline-block;
     position: absolute;
     left: 47%;
+    z-index: 10;  
+
 }
 
 .drink {
@@ -242,6 +389,7 @@ p{
     display: inline-block;
     position: absolute;
     right: 13%;
+    z-index: 10;  
 }
 
 .access {

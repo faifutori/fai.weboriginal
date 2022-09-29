@@ -1,0 +1,110 @@
+@media screen and (max-width:1000px) {
+ 
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    
+    .title{
+        background-image: url(../images/title2.png);
+        object-fit: cover;
+    
+        background-size: contain;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        /* background-position: 5px; */
+        /* background-attachment: fixed;  */
+        display: block;
+        /* max-width: 100%; */
+    }
+    
+    .title a{
+        color: none;
+        width: none;
+        font-size: none;
+    }
+    
+    .title ul{
+        width: 300px;
+        justify-content: space-between;
+        padding-left: 75%;
+        position: fixed;
+        padding-top: 15px;
+    }
+    
+    .titles ul {
+        background-color: rgba(0, 85, 45, 0);
+        padding-right: 100%;
+        padding-bottom: 28px; 
+        z-index: 20;
+    }
+    
+    .title li {
+        float: none;
+    }
+    
+    .title2{
+        background-image: url(../images/zarusoba1.jpg);
+        background-size: contain;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        /* background-position: 5px; */
+        /* background-attachment: fixed;  */
+        display: block;
+        /* max-width: 100%; */
+    }
+        
+    .thema {
+        background: rgba(255, 255, 255, 0.9) ;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .thema h1{
+        writing-mode: vertical-rl;
+        font-size: 24px;
+        margin: 30px;
+        letter-spacing: 0.4em;
+    }
+
+    .shape1{
+        background-color: #D7CF3A;
+        width: 28vh;
+        height: 28vh;
+        border: 1px solid #ffffff;
+        transform: rotate(45deg);
+        border-radius: 16px;
+        position: absolute;
+        left: 220px;
+        top: 1130px;
+    }
+    
+    .shape1 h1{
+        color: #fff;
+        transform: rotate(-45deg);
+        margin: 40px 30px;
+        text-align: center;
+        font-size: 48px;
+    }
+    
+    
+    .secound {
+        background-color: none;
+        border: none;
+        padding: 30px 250px 30px 51px;
+        margin: 150px 300px 50px 64px;
+        right: 20px;
+        /* position: absolute; */
+    }
+    
+
+}
