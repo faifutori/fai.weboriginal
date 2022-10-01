@@ -5,13 +5,13 @@
     list-style: none;
 }
 
-a{
+/* a{
     color: #ffffff;
     -webkit-transition: 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-}
+} */
 
 a:hover img {
   opacity: 0.6;
@@ -21,6 +21,10 @@ a:hover img {
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+
+.brtag {
+    display: none;
 }
 
 .fuwatAnime {
@@ -46,9 +50,11 @@ a:hover img {
 
 
 body{
-    font-family: 'Zen Maru Gothic', sans-serif;
+    /* font-family: 'Zen Maru Gothic', sans-serif; */
+    font-family: 'Noto Serif JP', serif;
+
     background-image: url(../images/background.jpg);
-    height: 120vh;
+    /* height: 120vh; */
     background-size: cover;
 }
 
@@ -68,14 +74,17 @@ p{
     margin: 10% 40% 5%;
 }
 
-
+a:hover {
+    opacity: 0.6;
+}
 
 .log img{
     width: 6%;
-    padding: 5px 0px 0px 20px;
+    padding: 20px 0px 0px 20px;
     /* opacity: 0.8; */
     position: fixed;
     z-index: 30;
+    opacity: 0.9;
 }
 
 /* .title{
@@ -96,12 +105,13 @@ p{
 }
 
 .title a{
-    color: #ffffff;
-    width: 500px;
-    font-size: 24px;
+    /* color: #ffffff;
+    width: 500px; */
+    font-size: 18px;
 }
 
 .title ul{
+    background-color: #00552E;
     display: flex;
     width: 300px;
     justify-content: space-between;
@@ -111,10 +121,10 @@ p{
 }
 
 .titles ul {
-    background-color: rgb(0, 85, 46, 0.4);
+    /* background-color: rgb(0, 85, 46, 0.4);
     padding-right: 100%;
     padding-bottom: 28px; 
-    z-index: 20;
+    z-index: 20; */
 }
 
 .title li {
@@ -134,6 +144,195 @@ p{
     /* max-width: 100%; */
 }
 
+.syoukai {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 30%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.syoukai a {
+    color: #fff;
+}
+
+.syoukai p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.osinagaki {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.osinagaki a {
+    color: #fff;
+}
+
+.osinagaki p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.tenpo {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 75%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.tenpo a {
+    color: #fff;
+}
+
+.tenpo p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.syoukai2 {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 38%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.syoukai2 a {
+    color: #fff;
+}
+
+.syoukai2 p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.tenpo2 {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 62%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.tenpo2 a {
+    color: #fff;
+}
+
+.tenpo2 p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.ageage {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 20%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.ageage a {
+    color: #fff;
+}
+
+.ageage p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.sobasoba {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 41%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.sobasoba a {
+    color: #fff;
+}
+
+.sobasoba p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.deza {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 59%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.deza a {
+    color: #fff;
+}
+
+.deza p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
+.tenpo3 {
+    background: rgba(0, 85, 46, 0.9) ;
+    display: inline-block;
+    z-index: 30;
+    top: 80%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.tenpo3 a {
+    color: #fff;
+}
+
+.tenpo3 p{
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 0.4em;
+}
+
 .title2 ul{
     display: flex;
     width: 580px;
@@ -149,9 +348,9 @@ p{
 
 
 .title2 a{
-    color: #ffffff;
-    width: 500px;
-    font-size: 24px;
+    /* color: #ffffff;
+    width: 500px; */
+    font-size: 18px;
 }
 
 .title3{
@@ -168,9 +367,9 @@ p{
 }
 
 .title3 a{
-    color: #ffffff;
-    width: 500px;
-    font-size: 24px;
+    /* color: #ffffff;
+    width: 500px; */
+    font-size: 18px;
 }
 
 .title3 ul{
@@ -207,9 +406,9 @@ p{
 }
 
 .title4 a{
-    color: #ffffff;
-    width: 500px;
-    font-size: 24px;
+    /* color: #ffffff;
+    width: 500px; */
+    font-size: 18px;
 }
 
 .title4 ul{
@@ -423,6 +622,11 @@ p{
 .access-wrap {
     width: 100%;
     margin-top: 20px;
+}
+
+.access-wrap iframe{
+    width: 80%;
+    height: 400px;
 }
 
 .access-guidance{
