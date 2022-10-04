@@ -44,6 +44,10 @@ $(function(){
          });
         });
     });
+
+    $('.js-btn').on('click', function () {      
+        $('.menu-menu , .btn-line').toggleClass('open'); 
+      })
 }); 
 
 
