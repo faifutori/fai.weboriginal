@@ -31,6 +31,7 @@
 		/* ボタンの大きさ  */
 		width: 48px;
 		height: 48px;
+		z-index: 10;
 	}
 	/***** 真ん中のバーガー線 *****/
 	.btn-line {
@@ -41,7 +42,7 @@
 		width: 100%;
 		height: 7px;
 		/* バーガー線の色 */
-		background-color: #fff;
+		background-color: #00552E;
 		transition: .2s;
 	}
 	/***** 上下のバーガー線 *****/
@@ -51,7 +52,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: #fff;
+		background-color: #00552E;
 		transition: .5s;
 	}
 	.btn-line::before {
@@ -69,7 +70,7 @@
 	}
 	.btn-line.open::before , .btn-line.open::after {
 		content: "";
-		background-color:#fff;
+		background-color:#00552E;
 		transition: .2s;
 	}
 	.btn-line.open::before {
@@ -84,18 +85,18 @@
 	/**************** 以下、メニューのスタイリング ****************/
 	.menu-menu {
 		/* メニューを縦に */
+		position: fixed;
 		display: flex;
 		flex-direction: column;
-		position: fixed;
 		/* メニューの位置マイナス指定で画面外に */
-		top: -70%;
+		top: -100%;
 		left: 50%;
 		width: 50%;
 		height: 50vh;
 		background-color: rgba(255, 255, 255, 0.8);
 		color: #fff;
 		transition: .3s;
-		z-index: 200px;
+		/* z-index: 200px; */
 	}
 	
 	.menu-list {
@@ -116,21 +117,24 @@
 	.menu-menu.open  {
 		position: absolute;
 		top: 0;
+		position: fixed;
+		z-index: 1;
 	}
 
-	/* 600px以上はハンバーガーボタン非表示、ヘッダー固定 */
 	@media screen and (min-width: 1000px) {
+	/* 600px以上はハンバーガーボタン非表示、ヘッダー固定 */
 		.btn {
 			display: none;
 		}
 		.menu-menu {
-			/* メニューを横に */
+		
 			display: flex;
 			flex-direction: row;
 			position: fixed;
 			top: 0;
-			right: 0;
+			right: -50%;
 			width: 100%;
 			height: 100px;
+			display: none;
 		}
 	}

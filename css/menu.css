@@ -232,9 +232,7 @@
     padding: 50px 0;
 }
 
-.inariinari {
-    display: none;
-}
+
 
 .shape5{
     background-color: #D7CF3A;
@@ -306,3 +304,12 @@
     position: absolute;
     margin: 20px 0px 0px 25px;
 }
+
+
+@media screen and (min-width: 1000px) {
+
+    .inariinari {
+        display: none;
+    }
+    
+	}
