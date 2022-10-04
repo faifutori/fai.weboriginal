@@ -88,7 +88,8 @@
 		flex-direction: column;
 		position: fixed;
 		/* メニューの位置マイナス指定で画面外に */
-		right: -70%;
+		top: -70%;
+		left: 50%;
 		width: 50%;
 		height: 50vh;
 		background-color: rgba(255, 255, 255, 0.8);
@@ -112,14 +113,11 @@
 		transition: .3s;
 	}
 	/***** メニューオープン時位置0にして画面内に *****/
-	.menu-menu {
+	.menu-menu.open  {
 		position: absolute;
-		right: 0;
+		top: 0;
 	}
 
-	.menu-menu.open {
-		right: 0;
-	  }
 	/* 600px以上はハンバーガーボタン非表示、ヘッダー固定 */
 	@media screen and (min-width: 1000px) {
 		.btn {
