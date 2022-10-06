@@ -1,7 +1,7 @@
 $(function(){
     $('.title').bgSwitcher({
         images: ['../images/title1.png','../images/title2.png'],
-        interval: 4000,
+        interval: 3000,
         loop: true
     });
 

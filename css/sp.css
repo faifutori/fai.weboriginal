@@ -983,27 +983,39 @@
 
 
     .inariinari {
-        display: block; 
+        /* display: block;  */
         width: 100%;
     }
-
+/* 
     .inariinari img{
         width: 100%;
         height: 100px;
         object-fit: cover;
-    }
+    } */
 
-    .inariimage1 {
-        background-image: url(../images/inari1.jpg);
+    .inariimage1 img{
+        /* background-image: url(../images/inari1.jpg); */
         background-size: contain;
+        width: 50%;
+        height: 100px;
+        object-fit: cover;
     }
-    .inariimage2 {
-        background-image: url(../images/inari2.jpg);
+    .inariimage2 img{
+        /* background-image: url(../images/inari2.jpg); */
         background-size: contain;
+        width: 50%;
+        height: 100px;
+        object-fit: cover;
+        padding: 5%;
     }
-    .inariimage3 {
-        background-image: url(../images/inari3.jpg);
+    
+    .inariimage3 img{
+        /* background-image: url(../images/inari3.jpg); */
         background-size: contain;
+        width: 50%;
+        height: 100px;
+        object-fit: cover;
+        /* margin-left: 50px; */
     }
 
 
